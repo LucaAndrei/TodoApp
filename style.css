@@ -1,1 +1,45 @@
-andreiboss
+.section h1 {
+  color: green;
+}
+.task-list {
+  background-color: #d9d9d9;
+  margin-bottom: 1px solid gray;
+}
+
+.day-tasks {
+  background-color: aliceblue;
+}
+
+/* .task-list h1 {
+  border: 3px dashed red;
+} */
+
+.day-tasks-p {
+  border: 3px solid blue;
+}
+
+ul {
+  list-style-type: none;
+}
+.list {
+  overflow: auto;
+  flex: 1 1 0;
+}
+.list li {
+  background: white;
+  color: darkgreen;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  margin: 2rem;
+}
+
+.list li.active {
+  background: darkgreen;
+  color: white;
+}
+
+.list li .row {
+  align-items: center;
+}
